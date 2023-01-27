@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html {
+  height: 100%;
+  background: #6441a5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #6441a5,
+    #2a0845
+  ); /* Chrome 10-25, Safari 5.1-6 */
+}
+body {
+  font-family: montserrat, arial, verdana;
+  background: transparent;
+}
+
+fieldset {
+  background: white;
+  border: 0 none;
+  border-radius: 0px;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+  padding: 20px 30px;
+  box-sizing: border-box;
+  width: 80%;
+  margin: 0 10%;
+
+  position: relative;
+}
+
+textarea {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: montserrat;
+  color: #2c3e50;
+  font-size: 13px;
+}
+#submit {
+  width: 100px;
+  background: #ee0979;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 25px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 5px;
+}
+img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+body {
+  text-align: center;
+}
+
+fieldset {
+  text-align: left;
+}
+
+label {
+  display: block;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat or dog</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <img
+          src="https://m.ridus.ru/images/2017/4/6/567857/in_article_89f96b3bed.jpg"
+          alt="cat or dog"
+        />
+        <h1>Cat or dog</h1>
+      </header>
+      <fieldset id="common">
+        <label for="pet-name"
+          >Pet's name:
+          <input
+            type="text"
+            id="pet-name"
+            name="pet-name"
+            required
+            placeholder="Peppa The Pig"
+        /></label>
+        <div class="indentation"></div>
+        <label for="owner-name"
+          >Your name:
+          <input
+            type="text"
+            id="owner-name"
+            name="owner-name"
+            required
+            placeholder="Samantha John"
+        /></label>
+        <label
+          >Your email:
+          <input
+            type="email"
+            id="email"
+            required
+            type="password"
+            pattern="[a-z0-5]{8,}"
+            placeholder="Type your email here"
+          />
+        </label>
+      </fieldset>
+      <fieldset id="pet-information">
+        <h2>Information about your pet</h2>
+        <label for="dropdown"
+          >What breed is your pet?
+          <select id="dropdown" name="dropdown">
+            <option value="">select a breed</option>
+            <option value="1">Labrador retriever</option>
+            <option value="2">Goldendoodle</option>
+            <option value="3">Golden retriever</option>
+            <option value="4">Labradoodle</option>
+            <option value="5">Other</option>
+          </select>
+        </label>
+        <p>Which kind of food does it eat?</p>
+        <label for="dry-food"
+          ><input
+            type="checkbox"
+            id="dry-food"
+            name="dry-food"
+            value="dry-food"
+          />Dry food</label
+        >
+        <label for="wet-food"
+          ><input
+            type="checkbox"
+            id="wet-food"
+            name="wet-food"
+            value="wet-food"
+          />Wet food</label
+        >
+        <label for="natural-food"
+          ><input
+            type="checkbox"
+            id="natural-food"
+            name="natural-food"
+            value="natural-food"
+          />Natural food</label
+        >
+        <p>Is it a boy or a girl?</p>
+        <label for="boy-pet"
+          ><input type="radio" id="boy-pet" name="gender" value="boy-pet" />It
+          is a boy!</label
+        >
+        <label for="girl-pet"
+          ><input type="radio" id="girl-pet" name="gender" value="girl-pet" />It
+          is a girl!</label
+        >
+      </fieldset>
+      <fieldset id="comments-area">
+        <label for="comments"
+          >What is your pet personality?
+          <textarea
+            id="comments"
+            name="comments"
+            rows="3"
+            cols="30"
+            placeholder="My Peppa likes sweets and muddy puddles..."
+          ></textarea>
+        </label>
+      </fieldset>
+      <fieldset id="pet-photo">
+        <label
+          >Load a photo of your pet!
+          <input type="file" />
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Save" />
+    </main>
+  </body>
+</html>

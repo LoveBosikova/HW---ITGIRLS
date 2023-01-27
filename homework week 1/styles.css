@@ -1,0 +1,93 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.cat-description,
+.cat-picture,
+.pushkin {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cat-picture > img {
+  height: 400px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description {
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: #3ca1d9;
+  height: 30%;
+  width: 30%;
+  margin: 10px;
+  font-family: "Righteous", cursive;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: #fff4ed;
+  overflow: scroll;
+}
+
+.description > p {
+  font-size: 1.1em;
+  margin: auto;
+}
+
+a:hover {
+  color: aqua;
+}
+
+.one {
+  background: #fff4ed;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+p {
+  padding: 10px;
+}
+
+.one h1 {
+  font-family: "Righteous", cursive;
+  position: relative;
+  color: #3ca1d9;
+  display: inline-block;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  font-size: 3em;
+  padding: 11px 60px;
+  margin: 0;
+  line-height: 1;
+}
+.one h1:before,
+.one h1:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 30px;
+  height: 100%;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  background: repeating-linear-gradient(
+    180deg,
+    transparent,
+    transparent 2px,
+    #3ca1d9 2px,
+    #3ca1d9 4px
+  );
+}
+.one h1:before {
+  left: 0;
+}
+.one h1:after {
+  right: 0;
+}
+@media (max-width: 420px) {
+  .one h1 {
+    font-size: 2em;
+  }
+}
