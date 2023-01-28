@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto+Condensed&display=swap");
+
+header {
+  background-image: url("photo.png");
+  width: 100%;
+  height: auto;
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.back-gradient {
+  position: absolute;
+  width: 1920px;
+  height: 491px;
+  left: 0px;
+  top: 0px;
+  opacity: 0.4;
+  overflow: hidden;
+  background: linear-gradient(
+    180deg,
+    #01353e 0%,
+    rgba(51, 51, 51, 0.595076) 31.64%,
+    rgba(51, 51, 51, 0.222586) 74.35%,
+    rgba(51, 51, 51, 0) 99.87%
+  );
+}
+
+p {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.6px;
+}
+
+.logo {
+  position: absolute;
+  width: 60px;
+  height: 63px;
+  left: 360px;
+  top: 35px;
+  margin-top: 1.4rem;
+}
+
+nav a {
+  margin-top: 52px;
+  color: #ffffff;
+  margin-left: 4rem;
+  margin-left: 4rem;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 200px;
+  line-height: 235px;
+  letter-spacing: 0.6px;
+  color: #0d302c;
+  position: relative;
+}
+
+h2 {
+  position: relative;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: -11rem;
+}
+
+.naming {
+  width: 1920px;
+  height: 491px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
