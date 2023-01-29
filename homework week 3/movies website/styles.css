@@ -1,0 +1,12 @@
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+img,
+video {
+  height: 250px;
+  width: 200px;
+  object-fit: cover;
+}
