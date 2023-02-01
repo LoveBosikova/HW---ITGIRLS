@@ -1,51 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto+Condensed&display=swap");
 
-header {
-  background-image: url("photo.png");
-  width: 100%;
-  height: auto;
-  position: absolute;
-  width: 1920px;
-  height: 1080px;
-  left: 0px;
-  top: 0px;
-}
-
-nav {
+#nav-vrap {
+  width: 110%;
+  padding-top: 5vh;
+  padding-bottom: 80vh;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  vertical-align: top;
+  background-image: url(main-background.png);
+  background-attachment: fixed;
+  background-position: 50% 80%;
+  background-size: cover;
 }
 
-.back-gradient {
-  position: absolute;
-
-  width: 1920px;
-  height: 491px;
-  left: 0px;
-  top: 0px;
-  opacity: 0.4;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
-  background: linear-gradient(
-    180deg,
-    #01353e 0%,
-    rgba(51, 51, 51, 0.595076) 31.64%,
-    rgba(51, 51, 51, 0.222586) 74.35%,
-    rgba(51, 51, 51, 0) 99.87%
-  );
 }
 
-p {
-  font-family: "Roboto Condensed";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
-  letter-spacing: 0.6px;
-}
-
-.logo {
+#logo {
   position: absolute;
   width: 60px;
   height: 63px;
@@ -54,46 +32,58 @@ p {
   margin-top: 1.4rem;
 }
 
-nav a {
-  margin-top: 52px;
-  color: #ffffff;
-  margin-left: 4rem;
-  margin-left: 4rem;
+li {
+  display: inline;
+  margin: 6em 3em 6em 3em;
 }
-
-h1,
-h2 {
+li a {
   text-align: center;
+  text-decoration: none;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
 }
 
-h1 {
+li a:hover {
+  border-bottom: 1px solid #00b2a0;
+}
+
+#logo {
+  position: absolute;
+  position: relative;
+  width: 60px;
+  height: 63px;
+  left: 0;
+  top: 0;
+}
+
+header h1 {
+  position: relative;
+  width: 654px;
+  height: 235px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 200px;
   line-height: 235px;
   letter-spacing: 0.6px;
+  margin-bottom: -0.1em;
   color: #0d302c;
-  position: relative;
 }
-
-h2 {
-  position: relative;
+header h2 {
   font-family: "Roboto Condensed";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
-  margin-top: -11rem;
+  letter-spacing: 0.6px;
+
+  color: #000000;
 }
 
-.naming {
-  width: 1920px;
-  height: 491px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+#feather {
+  margin-top: 7em;
 }
