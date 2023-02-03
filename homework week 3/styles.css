@@ -59,6 +59,10 @@ li a:hover {
   border-bottom: 1px solid #00b2a0;
 }
 
+li a :focus {
+  color: rgb(10, 10, 77);
+}
+
 #logo {
   position: absolute;
   position: relative;
@@ -117,6 +121,7 @@ main span {
   font-size: 72px;
   line-height: 85px;
   letter-spacing: 0.6px;
+  margin-bottom: 20px;
   color: #00b2a0;
 }
 
@@ -129,7 +134,9 @@ main span {
   letter-spacing: 0.6px;
   color: #242121;
 }
-
+section.u-will-have {
+  background: #f8f8f8;
+}
 table {
   table-layout: fixed;
   margin-left: 10rem;
@@ -174,4 +181,60 @@ table {
 
 .table-promises td:last-child {
   padding-right: 15px;
+}
+
+.columns-2 p.percentage {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+
+  color: #242121;
+}
+
+.columns-2 figure {
+  margin-bottom: 2em;
+  padding: 0;
+}
+.columns-2 figcaption {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  color: #242121;
+}
+.columns-2 figcaption:first-child {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  color: #1c022d;
+}
+
+.columns-2 {
+  column-count: 2;
+  max-width: 70vw;
+  margin-top: 3rem;
+  margin-left: 12rem;
+  margin-right: auto;
+  padding-bottom: 10rem;
+}
+
+.columns-2 p {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+
+  color: #242121;
 }
