@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design</title>
+    <style>
+      main {
+        background-color: rgb(235, 223, 55);
+        display: flex;
+        justify-content: space-between;
+        height: 70vh;
+      }
+      header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        background-color: rgb(204, 196, 196);
+      }
+      aside {
+        background-color: aquamarine;
+        width: 30vw;
+        display: flex;
+        flex-shrink: 1;
+        justify-content: center;
+        padding-top: 10px;
+      }
+      footer {
+        height: 20vh;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: rgb(204, 196, 196);
+      }
+
+      footer section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+        width: 160px;
+        background-color: rgb(238, 230, 230);
+      }
+      main article {
+        background-color: bisque;
+      }
+
+      main section {
+        width: 92%;
+        height: 70px;
+        display: flex;
+        margin-bottom: 15px;
+      }
+
+      div.display-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+
+        width: 100%;
+      }
+
+      article.short-article {
+        width: 48%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      article.long-article {
+        width: 100em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      section.two {
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    л
+    <header>Шапка страницы</header>
+    <main>
+      <div class="display-column">
+        <section class="two">
+          <article class="short-article">Ещё 1</article>
+          <article class="short-article">Ещё 2</article>
+        </section>
+        <section>
+          <article class="long-article">Ещё 3</article>
+        </section>
+      </div>
+
+      <aside>Боковая область</aside>
+    </main>
+    <footer>
+      <section>Секция 1</section>
+      <section>Секция 2</section>
+      <section>Секция 3</section>
+      <section>Секция 4</section>
+    </footer>
+  </body>
+</html>
