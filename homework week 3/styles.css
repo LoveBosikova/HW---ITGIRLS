@@ -144,7 +144,6 @@ table {
 }
 
 .table-articles td {
-  paddind-left: 7rem;
   padding-right: 7rem;
   padding-bottom: 2rem;
   vertical-align: top;
@@ -237,4 +236,99 @@ table {
   letter-spacing: 0.6px;
 
   color: #242121;
+}
+
+section#big-wave-photo {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 6rem;
+}
+section#big-wave-photo article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 3rem;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+
+  color: #242121;
+}
+
+section#big-wave-photo img {
+  padding-left: 3rem;
+}
+section#galery {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 2rem;
+}
+
+div#galery-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+  margin-bottom: 5rem;
+
+  width: 109px;
+  height: 23px;
+  text-decoration: none;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  color: #242121;
+}
+div#galery-navigation a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+div#galery-navigation a:hover {
+  color: #00b2a0;
+}
+div#galery-set {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#galery-left {
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+}
+div#galery-left img {
+  margin: 3px;
+}
+
+button#galery-button {
+  width: 350px;
+  height: 70px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 18px;
+}
+
+div#button-place {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
 }
