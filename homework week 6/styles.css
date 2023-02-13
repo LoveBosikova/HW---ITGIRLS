@@ -118,7 +118,6 @@ div.hall-gallery {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
 }
-
 div.shadow-block {
   width: 393px;
   height: 393px;
@@ -127,9 +126,40 @@ div.shadow-block {
   z-index: 2;
   border-radius: 1rem;
 }
-div.shadow-block img {
-  z-index: 1;
-}
 div.shadow-text {
   margin: 1.5rem;
+}
+
+div.points {
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+  justify-items: center;
+  align-items: center;
+}
+
+div.activ-point {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+div.inactive-point {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+button.gallery {
+  width: 250px;
+  height: 64px;
+  margin-top: 1rem;
+  margin-left: 43.5%;
+  margin-right: 43.5%;
+  background: #79c4e6;
+  border-radius: 101px;
+  border-color: white;
+  color: white;
 }
