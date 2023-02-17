@@ -108,7 +108,8 @@ section.shadow-gallery {
 }
 
 div.hall-gallery {
-  width: 90%;
+  width: 89vw;
+  overflow: hidden;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1rem;
@@ -119,6 +120,9 @@ div.hall-gallery {
   grid-template-rows: 1fr;
 }
 div.shadow-block {
+  grid-column: 1/2;
+  grid-row: 1/2;
+
   width: 393px;
   height: 393px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -128,6 +132,12 @@ div.shadow-block {
 }
 div.shadow-text {
   margin: 1.5rem;
+}
+
+img#shadow-img {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  z-index: 0;
 }
 
 div.points {
@@ -158,8 +168,102 @@ button.gallery {
   margin-top: 1rem;
   margin-left: 43.5%;
   margin-right: 43.5%;
+  margin-bottom: 1.5rem;
   background: #79c4e6;
   border-radius: 101px;
   border-color: white;
   color: white;
+}
+
+section.map-section {
+  width: 89vw;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+}
+
+section.roadmap {
+  width: 98vw;
+  height: 80vh;
+
+  background: url("images/roadmap.png") no-repeat center/cover;
+  overflow: hidden;
+  position: relative;
+}
+
+section.roadmap div.contacts {
+  width: 20%;
+  height: 70%;
+  left: 13%;
+  top: 20%;
+  position: absolute;
+  background-color: white;
+  display: grid;
+  grid-template-rows: [header-start] 3fr [header-end logo1-start] 2fr [logo1-end logo2-start] 2fr [logo2-end logo3-start] 2fr [logo3-end] 4fr [socialnets-end];
+  grid-template-columns: 1fr [content-start logo-start] 1fr [logo-end] 4fr [content-end] 1fr;
+  grid-gap: 15px;
+  justify-items: normal;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.contacts-text-header {
+  grid-row: header-start / header-end;
+  grid-column: content-start / content-end;
+  justify-self: center;
+}
+
+.contacts-img-mail {
+  grid-row: logo1-start / logo1-end;
+  grid-column: logo-start / logo-end;
+}
+.contacts-text-mail {
+  grid-row: logo1-start / logo1-end;
+  grid-column: logo-end / content-end;
+}
+
+.contacts-img-location {
+  grid-row: logo2-start / logo2-end;
+  grid-column: logo-start / logo-end;
+}
+
+.contacts-text-location {
+  grid-row: logo2-start / logo2-end;
+  grid-column: logo-end / content-end;
+}
+.contacts-img-phone-number {
+  grid-row: logo3-start / logo3-end;
+  grid-column: logo-start / logo-end;
+}
+.contacts-text-phone-number {
+  grid-row: logo3-start / logo3-end;
+  grid-column: logo-end / content-end;
+}
+
+.socialnets {
+  grid-row: logo3-end / socialnets-end;
+  grid-column: logo-end / content-end;
+  margin-left: -1rem;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+
+footer {
+  margin-top: 3rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+  grid-gap: 6rem;
+}
+
+.forth-footer-section {
+  margin-top: -2rem;
+}
+
+.first-footer-section {
+  margin-top: -1rem;
 }
