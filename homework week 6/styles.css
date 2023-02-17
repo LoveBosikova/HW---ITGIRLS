@@ -267,3 +267,28 @@ footer {
 .first-footer-section {
   margin-top: -1rem;
 }
+
+button {
+  border: none;
+  background-color: white;
+}
+
+.acrom-500 {
+  font-family: "Acrom";
+  font-weight: 500;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: #626b80;
+}
+
+h2 {
+  width: 80%;
+  margin-left: 6rem;
+  font-family: "Acrom";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+}
