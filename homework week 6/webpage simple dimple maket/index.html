@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid maket</title>
+    <style>
+      body {
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 15% 1fr 23%;
+        grid-template-areas:
+          "header header header"
+          "main main sidebar"
+          "footer footer footer";
+      }
+      header {
+        background-color: rgb(213, 209, 204);
+        grid-area: header;
+      }
+      main {
+        background-color: rgb(247, 216, 177);
+        grid-area: main;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 49% 25% 25%;
+        grid-template-areas:
+          "empty empty"
+          "sec1 sec2"
+          "sec3 sec3";
+      }
+      sidebar {
+        background-color: aquamarine;
+        grid-area: sidebar;
+      }
+      footer {
+        background-color: rgb(207, 197, 216);
+        grid-area: footer;
+      }
+      section.main-section-1,
+      section.main-section-2,
+      section.main-section-3 {
+        background-color: rgb(144, 143, 141);
+      }
+      section.main-section-1 {
+        grid-area: sec1;
+      }
+      section.main-section-2 {
+        grid-area: sec2;
+      }
+      section.main-section-3 {
+        grid-area: sec3;
+      }
+      section.empty {
+        grid-area: empty;
+      }
+      main section {
+        margin: 7px;
+      }
+      footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+
+      footer section {
+        background-color: aqua;
+        height: 55%;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section class="empty"></section>
+      <section class="main-section-1"></section>
+      <section class="main-section-2"></section>
+      <section class="main-section-3"></section>
+    </main>
+    <sidebar></sidebar>
+    <section></section>
+    <footer>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+    </footer>
+  </body>
+</html>
