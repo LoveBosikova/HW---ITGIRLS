@@ -1,0 +1,123 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  width: 100vw;
+  height: 20vh;
+  background-color: rgb(213, 209, 204);
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+main div.main-wrap {
+  background-color: rgb(247, 216, 177);
+  height: 60vh;
+  width: 70%;
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 49% 25% 25%;
+  grid-template-areas:
+    "empty empty"
+    "sec1 sec2"
+    "sec3 sec3";
+}
+section.main-section-1,
+section.main-section-2,
+section.main-section-3 {
+  background-color: rgb(238, 246, 244);
+}
+section.main-section-1 {
+  grid-area: sec1;
+}
+section.main-section-2 {
+  grid-area: sec2;
+}
+section.main-section-3 {
+  grid-area: sec3;
+}
+section.empty {
+  grid-area: empty;
+}
+main section {
+  margin: 7px;
+}
+
+div.sidebar {
+  background-color: aquamarine;
+  height: 60vh;
+  width: 30%;
+}
+
+footer {
+  background-color: rgb(207, 197, 216);
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer section {
+  background-color: blanchedalmond;
+  height: 60%;
+  width: 20%;
+}
+@media (max-width: 1024x), (max-width: 770px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    background-color: rgb(247, 216, 177);
+  }
+  div.sidebar {
+    background-color: aquamarine;
+    height: 40vh;
+    width: 100vw;
+  }
+  main div.main-wrap {
+    width: 100%;
+    background-color: rgb(247, 216, 177);
+    height: 60vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section.empty {
+    height: 25%;
+  }
+
+  section.main-section-1,
+  section.main-section-2,
+  section.main-section-3 {
+    background-color: rgb(238, 246, 244);
+    display: block;
+    height: 20% !important;
+    width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+  }
+  footer {
+    display: block;
+    height: 50vh;
+  }
+  footer section {
+    background-color: blanchedalmond;
+    height: 21%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  footer section:first-of-type {
+    margin-top: 10px;
+  }
+}
