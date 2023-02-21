@@ -104,7 +104,10 @@ footer section {
     margin-top: 15px;
   }
   footer {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     height: 50vh;
   }
   footer section {
@@ -115,9 +118,5 @@ footer section {
     margin-right: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-  }
-
-  footer section:first-of-type {
-    margin-top: 10px;
   }
 }
