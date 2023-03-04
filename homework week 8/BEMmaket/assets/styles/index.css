@@ -1,0 +1,5 @@
+.index {
+  display: grid;
+  grid-template-rows: 10% 70% 10%;
+  grid-template-columns: 1fr 1fr;
+}

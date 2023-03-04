@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto+Slab:wght@300;400&display=swap");
+
+.main__text {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 160%;
+
+  color: #000000;
+
+  margin-top: 0;
+  margin-bottom: 1em;
+}

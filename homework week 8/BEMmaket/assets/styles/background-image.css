@@ -1,0 +1,9 @@
+.background-image {
+  position: relative;
+}
+
+.background-image__img {
+  position: relative;
+  left: 2em;
+  bottom: 1em;
+}

@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto+Slab:wght@300;400&display=swap");
+
+.footer {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  /* Я знаю, позтцтонирования у блока быть не должно, но это футер, он только внизу страницы и только такой, поэтому позиционирование сделала у селектора блока*/
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #5222d0;
+  font-family: "Roboto Slab", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 160%;
+}
+
+.footer__item {
+  list-style-type: none;
+}
