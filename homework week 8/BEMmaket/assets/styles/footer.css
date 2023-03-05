@@ -13,6 +13,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .footer__link {
@@ -27,4 +28,5 @@
 
 .footer__item {
   list-style-type: none;
+  padding: 5px;
 }

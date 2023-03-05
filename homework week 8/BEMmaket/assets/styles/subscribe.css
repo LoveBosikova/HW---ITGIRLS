@@ -1,0 +1,11 @@
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  width: 30%;
+  padding: 0 37.5px 37.5px 37.5px;
+  margin-top: 37.5px;
+
+  background-color: #ec615b;
+}

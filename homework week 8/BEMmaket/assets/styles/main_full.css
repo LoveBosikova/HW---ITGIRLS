@@ -1,0 +1,7 @@
+.main_full {
+  display: block;
+  grid-column: 1 / 3;
+
+  margin-left: 5em;
+  margin-right: 5em;
+}

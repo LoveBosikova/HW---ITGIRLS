@@ -1,0 +1,12 @@
+@import url("https://fonts.cdnfonts.com/css/intro");
+
+.img-section__header {
+  max-width: 100%;
+  font-family: "Intro Demo", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+
+  color: #000000;
+}

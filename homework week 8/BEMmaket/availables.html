@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VR availables</title>
+    <link rel="stylesheet" href="assets/styles/index.css" />
+    <link rel="stylesheet" href="assets/styles/header.css" />
+    <link rel="stylesheet" href="assets/styles/header_top.css" />
+    <link rel="stylesheet" href="assets/styles/footer.css" />
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <link rel="stylesheet" href="assets/styles/background-image.css" />
+    <link rel="stylesheet" href="assets/styles/main_left.css" />
+    <link rel="stylesheet" href="assets/styles/main__header.css" />
+    <link rel="stylesheet" href="assets/styles/main__text.css" />
+    <link rel="stylesheet" href="assets/styles/button.css" />
+    <link rel="stylesheet" href="assets/styles/button_small.css" />
+    <link rel="stylesheet" href="assets/styles/button_big.css" />
+    <link rel="stylesheet" href="assets/styles/body_grid.css" />
+    <link rel="stylesheet" href="assets/styles/grid_cards.css" />
+    <link rel="stylesheet" href="assets/styles/img-section.css" />
+    <link rel="stylesheet" href="assets/styles/main_full.css" />
+    <link rel="stylesheet" href="assets/styles/flex-cards.css" />
+    <link rel="stylesheet" href="assets/styles/img-section__header.css" />
+    <link rel="stylesheet" href="assets/styles/img-section__description.css" />
+    <link rel="stylesheet" href="assets/styles/img-section_red-bordered.css" />
+    <link rel="stylesheet" href="assets/styles/img-section__img.css" />
+    <link rel="stylesheet" href="assets/styles/section-description.css" />
+    <link rel="stylesheet" href="assets/styles/section.css" />
+    <link rel="stylesheet" href="assets/styles/subscribe.css" />
+    <link rel="stylesheet" href="assets/styles/section__header.css" />
+    <link rel="stylesheet" href="assets/styles/subscribe__label_white.css" />
+
+    <link href="https://fonts.cdnfonts.com/css/intro" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body_grid">
+    <header class="header header_top">
+      <div class="header__logo">
+        <img src="assets/images/logoVR.png" alt="" />
+      </div>
+
+      <button class="button header__button button_small">
+        <a class="button__text" href="#">Корзина</a>
+        <img
+          class="button__img"
+          src="assets/images/ico-корзина.png"
+          alt="PayCard"
+        />
+      </button>
+    </header>
+
+    <main class="main_full">
+      <h1 class="main__header">Возможности</h1>
+      <div class="flex-cards">
+        <section class="img-section img-section_red-bordered">
+          <div class="img-section__img-wrap">
+            <img
+              class="img-section__img"
+              src="assets/images/img1.png"
+              alt="Independent"
+            />
+          </div>
+          <h2 class="img-section__header">Без проводов</h2>
+          <p class="img-section__description">
+            Шлем работает без проводов. Не нужен ни компьютер, ни внешнее
+            питание, ни большое помещение, чтобы расставить трекеры.
+          </p>
+        </section>
+        <section class="img-section">
+          <div class="img-section__img-wrap">
+            <img
+              class="img-section__img"
+              src="assets/images/img2.png"
+              alt="Without desctop"
+            />
+          </div>
+          <h2 class="img-section__header">Без компьютера</h2>
+          <p class="img-section__description">
+            Современным VR-шлемам нужен мощный компьютер, чтобы запускать игры.
+            Наш шлем запускает игры из облака, поэтому просто наслаждайтесь.
+          </p>
+        </section>
+        <section class="img-section">
+          <div class="img-section__img-wrap">
+            <img
+              class="img-section__img"
+              src="assets/images/img3.png"
+              alt="Great battery"
+            />
+          </div>
+          <h2 class="img-section__header">До 10 часов работы</h2>
+          <p class="img-section__description">
+            Несмотря на компактность и производительность, шлем может работать
+            до 10 часов — даже, если вы играете в самые ресурсоемкие игры.
+          </p>
+        </section>
+      </div>
+
+      <div class="flex-cards">
+        <section class="section">
+          <h2 class="section__header">Сотни игр</h2>
+          <p class="section__description">
+            Уже сейчас вам доступно более сотни игр: от высокобюджетных
+            ААА-тайтлов до маленьких независимых проектов. Скоро их станет еще
+            больше.
+          </p>
+        </section>
+        <section class="section">
+          <h2 class="section__header">Почти даром</h2>
+          <p class="section__description">
+            По сравнению с другими VR-шлемами наш стоит гораздо меньше. И вы
+            существенно экономите на мощном компьютере.
+          </p>
+        </section>
+        <section class="subscribe">
+          <label
+            class="subscribe__label section__header subscribe__label_white"
+            for="email"
+            >Новости</label
+          >
+          <input
+            class="subscribe__input"
+            type="email"
+            method="get"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Эл. почта"
+            style="height: 4vh"
+          />
+          <button class="button button_small" style="margin-top: 25px">
+            <a class="button__text" href="#">Подписаться</a>
+          </button>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <ul class="footer__list">
+        <li class="footer__item">
+          <a class="footer__link" href="availables.html" target="_blank"
+            >Возможности</a
+          >
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#" target="_blank">Где купить</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#" target="_blank">Доставка</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#" target="_blank">Помощь</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

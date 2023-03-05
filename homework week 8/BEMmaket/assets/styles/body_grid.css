@@ -1,0 +1,5 @@
+.body_grid {
+  display: grid;
+  grid-template-rows: 10vh 130vh 10vh;
+  grid-auto-columns: 1fr 1fr;
+}
