@@ -1,0 +1,111 @@
+/* <--      Общая стилизация      -->*/
+@import url("https://fonts.cdnfonts.com/css/post-no-bills-colombo?styles=20170");
+
+:root {
+  --main-bg-color: #ffffff;
+  --light-violet: #edebfc;
+  --hovered-button: #7871de;
+  --violet-color: #7871de;
+  --normal-button: #09035d;
+  --blue-color: #09035d;
+  --active-button: #030848;
+  --dark-blue: #030848;
+
+  --text-blue: #09035d;
+  --text-violet: #7871de;
+
+  --instagram-gradient: radial-gradient(
+    230.93% 230.93% at 102.01% 2.03%,
+    #f9ed32 0%,
+    #ee2a7b 36%,
+    #d22a8a 44%,
+    #8b2ab2 60%,
+    #1b2af0 83%,
+    #002aff 88%
+  );
+  --facebook-color: #0b84ee;
+  --vk-color: #0077ff;
+  --telegram-color: #27a6e5;
+
+  --font-bills-colombo: "Post No Bills Colombo", sans-serif;
+}
+
+/* <--      header навигация      -->*/
+
+.header {
+  background-color: var(--light-violet);
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav__items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: var(--text-blue);
+  font-family: var(--font-bills-colombo);
+  font-style: normal;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.nav__link:hover {
+  color: var(--text-violet);
+}
+
+.nav__item {
+  list-style-type: none;
+  margin-left: 0.7em;
+  margin-right: 0.7em;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+.socials__link {
+  background-color: var(--violet-color);
+  min-height: 24px;
+  min-width: 24px;
+}
+
+.socials__link:has(> img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 2px;
+  margin-right: 2px;
+  border-radius: 4px;
+}
+
+.socials__link--instagram:hover {
+  background: var(--instagram-gradient);
+}
+.socials__link--facebook:hover {
+  background: var(--facebook-color);
+}
+.socials__link--vk:hover {
+  background: var(--vk-color);
+}
+.socials__link--telegram:hover {
+  background: var(--telegram-color);
+}
+
+/* <--          -->*/
+/* <--          -->*/
+/* <--          -->*/
+/* <--          -->*/
