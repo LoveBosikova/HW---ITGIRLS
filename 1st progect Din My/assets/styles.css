@@ -28,6 +28,7 @@
 
   --text-blue: #09035d;
   --text-violet: #7871de;
+  --black-color: #0f0f10;
 
   --instagram-gradient: radial-gradient(
     230.93% 230.93% at 102.01% 2.03%,
@@ -44,6 +45,31 @@
 
   --font-bills-colombo: "Post No Bills Colombo", sans-serif;
   --font-seoul-hangang: "SeoulHangang M", sans-serif;
+}
+
+/* <--     Кнопки     -->*/
+
+.button {
+  font-family: var(--font-bills-colombo);
+  font-style: normal;
+  color: var(--main-bg-color);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: var(--normal-button);
+
+  box-shadow: 4px 4px 20px rgba(9, 3, 93, 0.1);
+
+  border-radius: 4px;
+  border: none;
+}
+
+.button:active {
+  background-color: var(--active-button);
+}
+
+.button:hover {
+  background-color: var(--hovered-button);
 }
 
 /* <--      header навигация      -->*/
@@ -196,29 +222,71 @@
   height: 100%;
 }
 
-/* <--     Кнопки     -->*/
+/* <--     Причины дрессировать собаку     -->*/
+.reasons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
 
-.button {
+  max-width: 1000px;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reasons__item {
+  box-sizing: border-box;
+  justify-content: center;
+  align-content: center;
+
+  display: flex;
+  flex-direction: column;
+
+  max-width: 18%;
+  padding-left: 2%;
+  padding-right: 2%;
+
+  text-align: center;
+}
+
+.reasons__header {
+  font-family: var(--font-seoul-hangang);
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 36px;
+
+  margin-bottom: 0;
+}
+
+.reasons__explanation {
   font-family: var(--font-bills-colombo);
+  color: var(--black-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+
+  margin-top: 0;
+}
+
+/* <--     Блок main-header     -->*/
+
+.main-header {
+  font-family: var(--font-seoul-hangang);
   font-style: normal;
-  color: var(--main-bg-color);
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  background-color: var(--normal-button);
-
-  box-shadow: 4px 4px 20px rgba(9, 3, 93, 0.1);
-
-  border-radius: 4px;
-  border: none;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100.02%;
 }
 
-.button:active {
-  background-color: var(--active-button);
-}
+/* <--     Блок cards     -->*/
 
-.button:hover {
-  background-color: var(--hovered-button);
+.cards {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
+/* <--          -->*/
+/* <--          -->*/
 /* <--          -->*/
 /* <--          -->*/
