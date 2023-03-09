@@ -133,24 +133,25 @@
   flex-wrap: nowrap;
   justify-content: center;
 
-  width: 80%;
+  width: 1000px;
 
   margin-left: auto;
   margin-right: auto;
   padding-top: 1em;
   padding-bottom: 3em;
+  overflow: hidden;
 }
 
 .main-board__text-side {
-  flex: 40% 1 1;
+  flex: 30% 1 1;
 
-  max-width: 40%;
+  max-width: 30%;
 
   border-radius: 20% 0 0 0;
   background-color: var(--main-bg-color);
 
-  padding-left: 12%;
-  padding-right: 5%;
+  padding-left: 5%;
+  padding-right: 6%;
   margin-right: 0;
 }
 
@@ -185,7 +186,7 @@
 }
 
 .main-board__photo-side {
-  flex: 57% 1 1;
+  flex: 70% 1 2;
 }
 
 .main-board__img {
