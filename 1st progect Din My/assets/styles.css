@@ -29,6 +29,7 @@
   --text-blue: #09035d;
   --text-violet: #7871de;
   --black-color: #0f0f10;
+  --green-color: #9fdb3d;
 
   --instagram-gradient: radial-gradient(
     230.93% 230.93% at 102.01% 2.03%,
@@ -282,7 +283,7 @@
 /* <--     Блок cards     -->*/
 
 .cards {
-  width: 1000px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2em;
@@ -346,7 +347,127 @@ svg {
   padding-left: 0.5em;
   padding-right: 1em;
 }
-/* <--          -->*/
-/* <--          -->*/
+
+/* <--     Секция "С кинологом лучше"     -->*/
+
+.better {
+  background-color: var(--violet-color);
+
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4em;
+  padding-bottom: 1em;
+}
+
+.better__articles-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-header--white {
+  color: var(--main-bg-color);
+  padding-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+}
+
+.better__article--long {
+  max-width: 45%;
+  flex: 30% 1 1;
+}
+
+.better__article--short {
+  max-width: 30%;
+  flex: 20% 1 1;
+}
+
+.better__header {
+  font-family: var(--font-bills-colombo);
+  color: var(--green-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.better__text {
+  font-family: var(--font-bills-colombo);
+  color: var(--main-bg-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+/* <--     Секция "Почему я"     -->*/
+.why-me-section {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+}
+.why-me-section__cards-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.why-me-section__card {
+  max-width: 29%;
+  box-shadow: -4px -4px 20px rgba(120, 113, 222, 0.1),
+    4px 4px 20px rgba(120, 113, 222, 0.1);
+  border-radius: 4px;
+
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-top: 2em;
+}
+
+.why-me-section__card--short {
+  min-height: 45vh;
+}
+
+.why-me-section__header {
+  font-family: var(--font-bills-colombo);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: var(--dark-blue);
+}
+
+.why-me-section__second-header {
+  font-family: var(--font-bills-colombo);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+
+  color: var(--text-violet);
+}
+
+.why-me-section__text {
+  font-family: var(--font-bills-colombo);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.why-me-section__emphasis {
+  font-family: var(--font-seoul-hangang);
+  color: var(--text-violet);
+}
+
+.why-me-section__card:hover {
+  box-shadow: -4px -4px 20px rgba(120, 113, 222, 0.2),
+    4px 4px 20px rgba(120, 113, 222, 0.2);
+}
 /* <--          -->*/
 /* <--          -->*/
