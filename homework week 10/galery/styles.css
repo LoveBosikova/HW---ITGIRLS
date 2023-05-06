@@ -1,0 +1,43 @@
+.cats {
+    max-width: 2000px;
+    width: 100%;
+} 
+
+.cats__container {
+    margin-top: 5rem;
+}
+
+.cats__header {
+    display: block;
+    text-align: center;
+}
+
+.cats__header, .cats__galery, .cats__buttons {
+    margin: 0 auto;
+}
+
+.cats__galery {
+    margin-top: 2rem;
+    max-width: 50%;;
+}
+
+.cats__galery img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.cats__buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cats__button {
+    width: 20%;
+    background-color: black;
+    color: white;
+    border: 2px solid rgb(170, 170, 170);
+    border-radius: 5px;
+
+    padding: 10px;
+    margin-top: 2rem;
+}
